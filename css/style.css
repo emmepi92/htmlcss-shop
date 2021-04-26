@@ -17,6 +17,16 @@ main {
     padding: 8px;
 }
 
+.fl{
+    float: left;
+}
+
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .product {
     background-size: cover;
     background-position: center;
@@ -77,5 +87,40 @@ main {
 
 .adv {
     background-color: lightgreen;
-    padding: 20px;
+    padding: 18px;
+}
+
+.fourth {
+    background-image: url("../img/4.webp");
+}
+
+.fifth {
+    background-image: url("../img/5.webp");
+}
+
+.sixth {
+    background-image: url("../img/6.webp");
+}
+.sixth .green {
+    left:10px
+}
+
+.first:hover {
+    background-image: url("../img/1-hover.webp");
+}
+
+.second:hover {
+    background-image: url("../img/2-hover.webp");
+}
+.third:hover {
+    background-image: url("../img/3-hover.webp");
+}
+.fourth:hover {
+    background-image: url("../img/4-hover.webp");
+}
+.fifth:hover {
+    background-image: url("../img/5-hover.webp");
+}
+.sixth:hover {
+    background-image: url("../img/6-hover.webp");
 }
