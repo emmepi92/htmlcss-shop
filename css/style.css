@@ -7,15 +7,17 @@
 
 main {
     width: 70%;
-    margin: 20px auto;
+    margin: 10px auto;
 }
 
+ /* utility classes  */
 .base {
     width: 33%;
+    display: inline-block;
+    padding: 8px;
 }
 
 .product {
-    background-image: url("../img/1.webp");
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -29,7 +31,7 @@ main {
     color: white;
 }
 
-.red {
+.discount {
     background-color: red;
     position: absolute;  
     left: 10px;
@@ -52,5 +54,28 @@ main {
     top: 5px;
     line-height: 28px;
     padding: 5px;
+}
 
+.price {
+    color: red;
+    font-weight: 800;
+    padding-top: 10px;
+}
+/* end utility  */
+
+.first {
+    background-image: url("../img/1.webp");
+}
+
+.second {
+    background-image: url("../img/2.webp");
+}
+
+.third {
+    background-image: url("../img/3.webp");
+}
+
+.adv {
+    background-color: lightgreen;
+    padding: 20px;
 }
