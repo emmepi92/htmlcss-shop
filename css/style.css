@@ -70,6 +70,10 @@ main {
     font-weight: 800;
     padding-top: 10px;
 }
+
+.black {
+    color:black
+}
 /* end utility  */
 
 .first {
