@@ -89,7 +89,7 @@ main {
 }
 
 
-.base.fl:nth-child(3) div:nth-child(2) {
+.base.fl:nth-child(3) div:last-child {
     background-color: lightgreen;
     padding: 18px;
 }
