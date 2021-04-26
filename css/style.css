@@ -88,10 +88,17 @@ main {
     background-image: url("../img/3.webp");
 }
 
-.third ~ div {
+
+.base.fl:nth-child(3) div:nth-child(2) {
     background-color: lightgreen;
     padding: 18px;
 }
+
+/* altro selettore speciale
+.third ~ div {
+    background-color: lightgreen;
+    padding: 18px;
+} */
 
 .fourth {
     background-image: url("../img/4.webp");
