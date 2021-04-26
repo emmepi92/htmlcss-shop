@@ -2,11 +2,12 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'PT Sans', sans-serif;
 }
 
 main {
     width: 70%;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 
 .base {
@@ -22,11 +23,34 @@ main {
     position: relative;
 }
 
-.discount {
-    position: absolute;
+.label {
+    padding: 6px 9px;  
+    font-weight: 600;
     color: white;
+}
+
+.red {
     background-color: red;
-    padding: 7px 10px;
-    left:10px;
-    bottom:10px;
+    position: absolute;  
+    left: 10px;
+    bottom: 10px;
+}
+
+.green {
+    background-color: green;
+    position: absolute; 
+    left: 70px;
+    bottom: 10px;
+}
+
+.favorite {
+    position: absolute;
+    background-color: white;
+    color: black;
+    font-size: 2.5em;
+    right: 0;
+    top: 5px;
+    line-height: 28px;
+    padding: 5px;
+
 }
