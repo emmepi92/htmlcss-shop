@@ -13,7 +13,7 @@ main {
  /* utility classes  */
 .base {
     width: 33%;
-    padding: 8px;
+    padding: 20px 8px
 }
 
 .fl{
@@ -34,6 +34,12 @@ main {
     position: relative;
 }
 
+.labels {
+    position: absolute;
+    bottom: 15px;
+    left: 0px;
+} 
+
 .label {
     padding: 6px 9px;  
     font-weight: 600;
@@ -41,17 +47,11 @@ main {
 }
 
 .discount {
-    background-color: red;
-    position: absolute;  
-    left: 10px;
-    bottom: 10px;
+    background-color: red; 
 }
 
 .green {
     background-color: green;
-    position: absolute; 
-    left: 70px;
-    bottom: 10px;
 }
 
 .favorite {
